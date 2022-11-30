@@ -1,0 +1,18 @@
+td {
+  width: 10px;
+  height: 10px;
+  border: solid;
+  border-width: 1px;
+  border-collapse: collapse;
+  table-layout: fixed;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+table {
+  table-layout: fixed;
+  border: solid;
+  border-collapse: collapse;
+  overflow: hidden;
+  white-space: nowrap;
+}

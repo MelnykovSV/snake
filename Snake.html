@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Snake.css" />
+  </head>
+  <body>
+    <table id="tab1"></table>
+    <input
+      type="button"
+      value="Start"
+      id="start"
+      onclick="snake_moving1(), disable_button(), generate_food(snake)"
+    />
+
+    <input type="button" value="Clear" onclick="reset()" />
+
+    <input type="button" value="Down" onclick="movedown()" />
+    <input type="button" value="Up" onclick="moveup()" />
+    <input type="button" value="Right" onclick="moveright()" />
+    <input type="button" value="Left" onclick="moveleft()" />
+    <p id="counter">0</p>
+    <p id="counter1"></p>
+    <input type="range" id="difficulty" name="difficulty" min="1" max="3" />
+    <label for="difficulty">DIFFICULTY</label>
+
+    <script src="Snake.js"></script>
+  </body>
+</html>
